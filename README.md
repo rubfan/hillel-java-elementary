@@ -1,5 +1,8 @@
 # hillel-java-elementary
-
+0) JDK download and installation:
+   - download from Oracle site
+   - setup: JAVA_HOME environment variable
+   - add in PATH environment variable
 1) create Git account.
 2) create Fork from: https://github.com/rubfan/hillel-java-elementary
 3) create Slack account.
@@ -14,13 +17,14 @@
 12) write necessary code and accomplish your current task.
 13) compile your java file: javac src/YourClass.java -d out
 14) start compiled class: java -cp out YourClass
-15) git status
-16) git add .
-17) git status
-18) commit your changes: git commit -m "some comments about your changes"
-19) push your changes to yor fork repository: push origin master
-20) go to your git fork page and check all changes.
-21) click the button "Pull Request" and create PR form your fork branch to master.
+15) create java docs: javadoc -d docs src/YourClass.java
+16) git status
+17) git add .
+18) git status
+19) commit your changes: git commit -m "some comments about your changes"
+20) push your changes to yor fork repository: push origin master
+21) go to your git fork page and check all changes.
+22) click the button "Pull Request" and create PR form your fork branch to master.
 
 # ===HELP===
 enter to your command line: cat path_to_project/README.md
