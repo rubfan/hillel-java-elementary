@@ -25,5 +25,6 @@ public double calc(int x, int y) {
 Trying to make comment 
 */
 return x / y;
+}
 
 }
