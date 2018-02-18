@@ -1,0 +1,19 @@
+public class MyFirstTest{
+
+/**
+*
+*
+*param args command line arguments 
+*\
+  public static void main(String [] args){
+    System.out.println("Hello world"); 
+  }
+/**
+*
+* Divide two values 
+* return x/y
+*\
+  public int calcint ( int x, int y){
+  return x / y; 
+  }
+} 
