@@ -7,7 +7,6 @@ package ua.od.hillel;
 
 public class Main {
 
-
     public static void main(String[] args) {
         System.out.println("minOfThreeNumbers() => " + minOfThreeNumbers(1,1,7));
         System.out.println("minAndMaxNumbers() => " + minAndMaxNumbers(3, 1, 3));
