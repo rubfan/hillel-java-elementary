@@ -7,8 +7,15 @@ package ua.od.hillel;
 
 public class Main {
 
+
     public static void main(String[] args) {
-	// write your code here
+        System.out.println("minOfThreeNumbers() => " + minOfThreeNumbers(1,1,7));
+        System.out.println("minAndMaxNumbers() => " + minAndMaxNumbers(3, 1, 3));
+        System.out.println("allMinOfThreeNumbers() => " + allMinOfThreeNumbers(5,7,5));
+        System.out.println("isParity() => " + isParity(4));
+        System.out.println("isDivisionWithoutResidue() => " + isDivisionWithoutResidue(5, 2));
+        System.out.println("closestToNumberTen() => " + closestToNumberTen(54, 38));
+        System.out.println("calculateRent() => " + calculateRent(8));
     }
 
     /** 1) Find the minimum of the three numbers  */
