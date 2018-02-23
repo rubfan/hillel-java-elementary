@@ -65,4 +65,10 @@ public class Main {
     public static boolean isParity(int num) {
         return num%2 == 0 ? true : false;
     }
+
+    /** 5) Check for division of the first number by the second number without a remainder */
+    public static boolean isDivisionWithoutResidue(int num1, int num2) {
+        return num1%num2 == 0 ? true : false;
+    }
+
 }
