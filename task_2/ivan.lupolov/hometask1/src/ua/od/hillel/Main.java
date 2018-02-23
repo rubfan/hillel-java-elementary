@@ -60,4 +60,9 @@ public class Main {
             return min +" "+ min;
         return min +"";
     }
+
+    /** 4) Check the parity of a number */
+    public static boolean isParity(int num) {
+        return num%2 == 0 ? true : false;
+    }
 }
