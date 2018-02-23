@@ -71,4 +71,16 @@ public class Main {
         return num1%num2 == 0 ? true : false;
     }
 
+    /** 6) Find the closest number to ten */
+    public static String closestToNumberTen(int num1, int num2) {
+        if(Math.abs(num1-10) == Math.abs(num2-10)) {
+            return "The numbers are equidistant.";
+        } else if(Math.abs(num1-10) < Math.abs(num2-10)) {
+            return String.valueOf(num1);
+        } else {
+            return String.valueOf(num2);
+
+        }
+    }
+
 }
