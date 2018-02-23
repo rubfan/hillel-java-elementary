@@ -40,4 +40,24 @@ public class Main {
 
         return min + " " + max;
     }
+
+    /** 3) Find all the minima of the three numbers  */
+    public static String allMinOfThreeNumbers(int num1, int num2, int num3) {
+
+        int min = minOfThreeNumbers(num1,num2,num3);
+        int countMin = 0;
+        int[] nums = {num1, num2, num3};
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == min) {
+                countMin++;
+            }
+        }
+
+        if (countMin == 3)
+            return "Numbers are equals each other.";
+        if (countMin == 2)
+            return min +" "+ min;
+        return min +"";
+    }
 }
