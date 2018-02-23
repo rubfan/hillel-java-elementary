@@ -83,4 +83,18 @@ public class Main {
         }
     }
 
+    /** 7) Count how much it will cost to rent an apartment for a specified number of days,
+     *  if you know that for 1 day its cost is 40 UAH. And, if the tenant has lived in it
+     *  more than 5 days, he will receive a discount of 20 UAH, and if more than 7 days,
+     *  the discount will be 50 UAH.  */
+    public static int calculateRent(int day) {
+        if (day > 7) {
+            return day*40 - 50;
+        } else if (5 < day && day <= 7) {
+            return day*40 - 20;
+        } else {
+            return day*40;
+        }
+    }
+
 }
