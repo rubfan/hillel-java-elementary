@@ -1,12 +1,30 @@
 /**
- * My first comment fro class
+ * My 1st class
  */
 public class MyFirstTest {
+    
     /**
-     * This is my first comment for method
-     */
+     *
+     * @param args command line argument.
+     *
+    */
     public static void main(String[] args) {
-     System.out.println("Hello Java");
+       //out our first string 
+       System.out.println("Hello world");
     }
-
+    
+    /**
+     * Divide 2 values
+     *
+     * @param x aaaa
+     * @param y bbb
+     * @return ccc
+     * 
+     */
+    public int calc(int x, int y) {
+        /*
+          This line will return result of division. 
+        */
+        return x / y;
+    }
 }
