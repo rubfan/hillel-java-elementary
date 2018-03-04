@@ -11,29 +11,29 @@ public class Calculator {
         System.out.println("1.Сложение 2.Вычитание 3.Умножение 4.Деление 5.Остаток от деления 6.Нахождение модуля числа");
         System.out.println("------->");
         int res = 0;
-        boolean flag = true;
-        while (flag) {
+        boolean condition = true;
+        while (condition) {
             String s = scanner.nextLine();
             if (s.equals("1")) {
                 res = 1;
-                flag = false;
+                condition = false;
             } else if (s.equals("2")) {
                 res = 2;
-                flag = false;
+                condition = false;
             } else if (s.equals("3")) {
                 res = 3;
-                flag = false;
+                condition = false;
             } else if (s.equals("4")) {
                 res = 4;
-                flag = false;
+                condition = false;
             } else if (s.equals("5")) {
                 res = 5;
-                flag = false;
+                condition = false;
             } else if (s.equals("6")) {
                 res = 6;
-                flag = false;
+                condition = false;
             } else {
-                flag = true;
+                condition = true;
                 System.out.println("Выберите операцию");
                 System.out.println("1.Сложение 2.Вычитание 3.Умножение 4.Деление 5.Остаток от деления 6.Нахождение модуля числа");
                 System.out.print("------->");
