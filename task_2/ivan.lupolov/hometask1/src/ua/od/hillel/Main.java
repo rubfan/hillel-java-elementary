@@ -8,8 +8,8 @@ package ua.od.hillel;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("minOfThreeNumbers() => " + minOfThreeNumbers(1,1,7));
-        System.out.println("minAndMaxNumbers() => " + minAndMaxNumbers(3, 1, 3));
+        System.out.println("minOfThreeNumbers() => " + minOfThreeNumbers(1,1,3));
+        System.out.println("minAndMaxNumbers() => " + minAndMaxNumbers(3, 2, 2));
         System.out.println("allMinOfThreeNumbers() => " + allMinOfThreeNumbers(5,7,5));
         System.out.println("isParity() => " + isParity(4));
         System.out.println("isDivisionWithoutResidue() => " + isDivisionWithoutResidue(5, 2));
@@ -23,7 +23,8 @@ public class Main {
 
         if (min > num2) {
             min = num2;
-        } else if (min > num3){
+        }
+        if (min > num3){
             min = num3;
         }
 
@@ -38,7 +39,8 @@ public class Main {
         if (min > num2) {
             min = num2;
             max = num1;
-        } else if (min > num3){
+        }
+        if (min > num3){
             min = num3;
         } else if(max < num3) {
             max = num3;
