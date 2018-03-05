@@ -69,7 +69,6 @@ public class Calculator {
                     default:
                         System.err.println("Wrong operation: " + command);
                         System.out.println("\nTry again? Y or N?");
-
                 }
             } else if (command.equals("C")) {
 
