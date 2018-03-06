@@ -21,6 +21,8 @@ public class Main {
 
             System.out.println("Result: " + calc.compute(operation, firstOperand, secondOperand));
 
+        }else if(args.length==3){
+            System.out.println("trying to parse commandline arguments");
         }
 
     }
