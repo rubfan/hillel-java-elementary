@@ -27,6 +27,5 @@ public class Calculator {
                 System.out.println("Unrecognised command");
         }
         return result;
-
     }
 }

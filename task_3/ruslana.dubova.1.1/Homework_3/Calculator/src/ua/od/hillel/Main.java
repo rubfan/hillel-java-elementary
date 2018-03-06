@@ -4,14 +4,15 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        if (args.length == 0) {
 
-            Calculator calc = new Calculator();
+        Calculator calc = new Calculator();
+
+        if (args.length == 0) {
 
             Scanner scr = new Scanner(System.in);
 
             System.out.println("Specify opreation: ");
-            String operation = scr.nextLine();
+            String operation = scr.nextLine().trim();
 
             System.out.println("Specify first operand: ");
             int firstOperand = scr.nextInt();
@@ -22,7 +23,15 @@ public class Main {
             System.out.println("Result: " + calc.compute(operation, firstOperand, secondOperand));
 
         }else if(args.length==3){
-            System.out.println("trying to parse commandline arguments");
+            String operation = args[0];
+            int firstOperand = Integer.parseInt(args[1]);
+            int secondOperand = Integer.parseInt(args[2]);
+
+            System.out.println("trying to parse commandline arguments: operation=" + operation +
+                               " firstOperand=" + firstOperand +
+                               " secondOperand=" + secondOperand);
+
+            System.out.println("Result: " + calc.compute(operation, firstOperand, secondOperand));
         }
 
     }
