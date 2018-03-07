@@ -11,12 +11,11 @@ public class Calculator {
         double num2;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please, pick mod of input. (Scanner (S) in or command line arguments (C)): ");
+        System.out.println("Please, pick mod of input. (Scanner (S) or command line arguments (C)): ");
 
         while(!(command = scanner.next()).equals("N")) {
 
-            if (command.equals("S") || command.equals("Y")) {
-
+            if (command.equals("S") || command.equals("Y")) { // блок для ввода данных через Scaner, после вывода результата есть возможность выполнять операции повторно
                 System.out.println("=================================================\n" +
                         "Operation list:\n" +
                         "add - addition\n" +
@@ -70,7 +69,7 @@ public class Calculator {
                         System.err.println("Wrong operation: " + command);
                         System.out.println("\nTry again? Y or N?");
                 }
-            } else if (command.equals("C")) {
+            } else if (command.equals("C")) { // блок для который считает данные из CLI, после вывода результата программа завершает работу
 
                 command = args[0];
                 if (command.equals("abs")) {
@@ -83,22 +82,22 @@ public class Calculator {
 
                 switch (command) {
                     case "add":
-                        System.out.println("Input: " + num1 + ", " + num2 + "\nResult: " + addition(num1, num2));
+                        System.out.println("Input: " + num1 + ", " + num2 +"; Operation: " + command + " \nResult: " + addition(num1, num2));
                         return;
                     case "mult":
-                        System.out.println("Input: " + num1 + ", " + num2 + "\nResult: " + multiplication(num1, num2));
+                        System.out.println("Input: " + num1 + ", " + num2 +"; Operation: " + command + " \nResult: " + multiplication(num1, num2));
                         return;
                     case "div":
-                        System.out.println("Input: " + num1 + ", " + num2 + "\nResult: " + division(num1, num2));
+                        System.out.println("Input: " + num1 + ", " + num2 +"; Operation: " + command + " \nResult: " + division(num1, num2));
                         return;
                     case "sub":
-                        System.out.println("Input: " + num1 + ", " + num2 + "\nResult: " + subtraction(num1, num2));
+                        System.out.println("Input: " + num1 + ", " + num2 +"; Operation: " + command + " \nResult: " + subtraction(num1, num2));
                         return;
                     case "mod":
-                        System.out.println("Input: " + num1 + ", " + num2 + "\nResult: " + mod(num1, num2));
+                        System.out.println("Input: " + num1 + ", " + num2 +"; Operation: " + command + " \nResult: " + mod(num1, num2));
                         return;
                     case "abs":
-                        System.out.println("Input: " + num1 + "\nResult: " + abs(num1));
+                        System.out.println("Input: " + num1 + "; Operation: " + command + " \nResult: " + abs(num1));
                         return;
                     default:
                         System.err.println("Wrong operation: " + args[0]);
@@ -107,7 +106,6 @@ public class Calculator {
 
             } else {
                 System.err.println("Wrong mod. Please enter (S) or (C).");
-                break;
             }
         }
 
