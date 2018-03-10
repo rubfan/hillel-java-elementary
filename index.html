@@ -125,7 +125,7 @@
       <li><a onclick="openLesson(event, 'lesson_6')" class="tablinks passed" href="#lesson_6"><b style="color: green">&radic;</b> Lesson 6</a></li>
       <li><a onclick="openLesson(event, 'lesson_7')" class="next tablinks" href="#lesson_7"><b style="color: green">&rArr;</b> Lesson 7</a></li>
       <div class="tooltip">
-        <img name="James Gosling" style="left: 220px;margin-top: -170px; z-index: 9999;position: absolute;" height="150px" src="http://nighthacks.com/jag/res/SouthParkJAG-small.png">
+        <img name="James Gosling" style="left: 200px;margin-top: -170px; z-index: 9999;position: absolute;" height="150px" src="http://nighthacks.com/jag/res/SouthParkJAG-small.png">
         <span style="left: 130px;margin-top: -220px; z-index: 99999;position: absolute;" class="tooltiptext">Hi, I'm James Gosling. Welcome to Java world! <br/>Let's program! </span>
       </div>
       <li><a onclick="openLesson(event, 'lesson_8')" class="tablinks" href="#lesson_8">Lesson 8</a></li>
@@ -722,6 +722,50 @@
       </ol>
 
       <h1>Lesson 6 - Homework</h1>
+
+<div><a name="596"><span><ol><li> Сделайте сортировку выборкой, когда нужно найти минимальный элемент и посчитайте сколько на нее отводится операций(времени)
+<br></li></ol><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;попробуйте увеличить количество элементов в массиве и оценить на сколько увеличится время
+</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.  Есть 2 массива упорядоченных по возрастанию. Получите 3й массив, который объединит все эти элементы, но также в возрастающем &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;порядке.
+</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Пример ввода:
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a = {1, 3, 5}
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b = {2, 4, 8, 9, 12}
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Результат:
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c = {1, 2, 3, 4, 5, 8, 9, 12}</div><div><br></div><ol start="3">
+<li> Определите сложность следующего алгоритма:
+<br></li></ol></span></a>
+<div>
+<pre>
+public class Algorithm {
+    public static void main(String[] args) {
+        int k = 0;
+        int n = 10;
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                for (int z = j + 1; z < n; z++) {
+                    k++;
+                }
+            }
+        }
+        System.out.println("The result is " + k);
+    }
+}
+</pre>
+</div>
+<div><br></div>
+
+<ol start="4">
+
+<li>Есть массив с числами упорядоченными по возрастанию, нужно определить есть ли в этом массиве 2 числа, сумма которых равна "sum".
+</li></ol><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Пример ввода:
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a = {1, 5, 7, 9, 12}
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum = 12
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Результат:
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;true - так как 5 + 7 = 12
+</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a = {1, 5, 7, 9, 12}
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum = 3
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Результат:
+</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;false - так как нет двух чисел, которые в сумме дают 3</div>
+</div>
     </div>
 
     <div id="lesson_7" class="tabcontent">
