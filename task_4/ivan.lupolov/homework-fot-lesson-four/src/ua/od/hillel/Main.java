@@ -138,18 +138,11 @@ public class Main {
 
         while (number != 0) {
             b = number % 2;
-            binaryNum += b;
+            binaryNum = b + binaryNum;
             number = number/2;
         }
 
-        char[] binArray = binaryNum.toCharArray();
-        for (int i = binArray.length-1; i >= 0; i--) {
-            System.out.print(binArray[i]);
-        }
-
-        // вариант для ленивых
-        //System.out.println(new StringBuilder(binaryNum).reverse());
-
+        System.out.println(binaryNum);
     }
 
     /** 10 */
