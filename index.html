@@ -87,11 +87,30 @@
         color: rgb(2, 69, 176); 
         text-decoration: none;
       }
+
+      .tooltip .tooltiptext {
+          visibility: hidden;
+          width: 220px;
+          background-color: #9CCFA0;
+          color: black;
+          text-align: center;
+          border-radius: 6px;
+          padding: 5px 0;
+          position: absolute;
+          z-index: 1;
+      }
+
+      .tooltip:hover .tooltiptext {
+          visibility: visible;
+      }
     </style>
     </head>
   <body>
     <div class="header">
-      <h2><img style="text-align: left;" height="25px" src="https://ithillel.ua/resources/images/global/logo_big@2x.png"><b style="padding-left: 25px; text-align: center;">Java Elementary Lessons</b></h2>
+      <h2>
+        <img style="text-align: left;" height="25px" src="https://ithillel.ua/resources/images/global/logo_big@2x.png">
+        <b style="padding-left: 25px; text-align: center;">Java Elementary Lessons</b>
+      </h2>
     </div>
     <ul>
       <li><a onclick="openLesson(event, 'general_info')" style="color: #3f4" class="tablinks passed" href="#general_info">&oplus; General Information</a></li>
@@ -102,9 +121,13 @@
       <li><a onclick="openLesson(event, 'lesson_2')" class="tablinks passed" href="#lesson_2"><b style="color: green">&radic;</b> Lesson 2</a></li>
       <li><a onclick="openLesson(event, 'lesson_3')" class="tablinks passed" href="#lesson_3"><b style="color: green">&radic;</b> Lesson 3</a></li>
       <li><a onclick="openLesson(event, 'lesson_4')" class="tablinks passed" href="#lesson_4"><b style="color: green">&radic;</b> Lesson 4</a></li>
-      <li><a onclick="openLesson(event, 'lesson_5')" class="next tablinks" href="#lesson_5"><b style="color: green">&rArr;</b> Lesson 5</a></li>
-      <li><a onclick="openLesson(event, 'lesson_6')" class="tablinks" href="#lesson_6">Lesson 6</a></li>
-      <li><a onclick="openLesson(event, 'lesson_7')" class="tablinks" href="#lesson_7">Lesson 7</a></li>
+      <li><a onclick="openLesson(event, 'lesson_5')" class="tablinks passed" href="#lesson_5"><b style="color: green">&radic;</b> Lesson 5</a></li>
+      <li><a onclick="openLesson(event, 'lesson_6')" class="tablinks passed" href="#lesson_6"><b style="color: green">&radic;</b> Lesson 6</a></li>
+      <li><a onclick="openLesson(event, 'lesson_7')" class="next tablinks" href="#lesson_7"><b style="color: green">&rArr;</b> Lesson 7</a></li>
+      <div class="tooltip">
+        <img name="James Gosling" style="left: 220px;margin-top: -170px; z-index: 9999;position: absolute;" height="150px" src="http://nighthacks.com/jag/res/SouthParkJAG-small.png">
+        <span style="left: 130px;margin-top: -220px; z-index: 99999;position: absolute;" class="tooltiptext">Hi, I'm James Gosling. Welcome to Java world! <br/>Let's program! </span>
+      </div>
       <li><a onclick="openLesson(event, 'lesson_8')" class="tablinks" href="#lesson_8">Lesson 8</a></li>
       <li><a onclick="openLesson(event, 'lesson_9')" class="tablinks" href="#lesson_9">Lesson 9</a></li>
       <li><a onclick="openLesson(event, 'lesson_10')" class="tablinks" href="#lesson_10">Lesson 10</a></li>
@@ -674,6 +697,36 @@
       <div><i> jar cf program.jar &lt;main_class_file&gt;</i> - создание jar файла</div>
       <div><i>java -jar &lt;имя_файла&gt; &lt;параметры&gt;</i> - запуск программы</div>
       <br/>
+    </div>
+
+    <!-- -->
+    <div id="lesson_6" class="tabcontent">
+      <h1>Lesson 6 - Maven introduction</h1>
+
+      <div>Part 1:</div>
+      <ol>
+        <li>GitHub - Gist</li>
+        <li>Pastebin</li>
+        <li>Shift operation (division by 2 example):<br>- check time in nanoseconds<br>- show bytecode has shift instead of / 2</li>
+        <li>Power to the number of 2 task (students)</li>
+        <li>String comparison with equals</li>
+      </ol>
+      <div>Part 2:</div>
+      <ol>
+        <li>Maven basics:<br>- versioning<br>- creates a separate item<br>- automatically downloads transitive dependencies<br>- you can work with a local repository as well as with a remote one</li>
+        <li>Maven vs Ant comparison</li>
+        <li>Maven standalone installation:<br>- download maven<br>- environment variables<br>- test by "mvn -version"</li>
+        <li>Base project:<br>- "groupId" (company name)<br>- "artifactId" (project name)<br>- "version" (project version)<br>- "modelVersion" (schema structure)<br>- "packaging"</li>
+        <li>Maven goals:<br>- mvn clean<br>- mvn compile<br>- mvn package<br>- mvn install</li>
+        <li>"Utils" library using maven project</li><li>Custom jar name:<br>&lt;build&gt;<br>&nbsp; &lt;finalName&gt;utils&lt;/finalName&gt;<br>&lt;/build&gt;</li>
+      </ol>
+
+      <h1>Lesson 6 - Homework</h1>
+    </div>
+
+    <div id="lesson_7" class="tabcontent">
+      <h1>Lesson 7 - </h1>
+      <h1>Lesson 7 - Homework</h1>
     </div>
 
     <script>
