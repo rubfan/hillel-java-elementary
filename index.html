@@ -724,54 +724,84 @@
 
       <h1>Lesson 6 - Homework</h1>
 
-<div><a name="596"><span><ol><li> Сделайте сортировку выборкой, когда нужно найти минимальный элемент и посчитайте сколько на нее отводится операций(времени)
-<br></li></ol><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;попробуйте увеличить количество элементов в массиве и оценить на сколько увеличится время
-</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.  Есть 2 массива упорядоченных по возрастанию. Получите 3й массив, который объединит все эти элементы, но также в возрастающем &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;порядке.
-</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Пример ввода:
-</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a = {1, 3, 5}
-</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b = {2, 4, 8, 9, 12}
-</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Результат:
-</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c = {1, 2, 3, 4, 5, 8, 9, 12}</div><div><br></div><ol start="3">
-<li> Определите сложность следующего алгоритма:
-<br></li></ol></span></a>
-<div>
-<pre>
-public class Algorithm {
-    public static void main(String[] args) {
-        int k = 0;
-        int n = 10;
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                for (int z = j + 1; z < n; z++) {
-                    k++;
+        <div><a name="596"><span><ol><li> Сделайте сортировку выборкой, когда нужно найти минимальный элемент и посчитайте сколько на нее отводится операций(времени)
+        <br></li></ol><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;попробуйте увеличить количество элементов в массиве и оценить на сколько увеличится время
+        </div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.  Есть 2 массива упорядоченных по возрастанию. Получите 3й массив, который объединит все эти элементы, но также в возрастающем &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;порядке.
+        </div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Пример ввода:
+        </div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a = {1, 3, 5}
+        </div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b = {2, 4, 8, 9, 12}
+        </div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Результат:
+        </div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c = {1, 2, 3, 4, 5, 8, 9, 12}</div><div><br></div><ol start="3">
+        <li> Определите сложность следующего алгоритма:
+        <br></li></ol></span></a>
+        <div>
+        <pre>
+        public class Algorithm {
+            public static void main(String[] args) {
+                int k = 0;
+                int n = 10;
+                for (int i = 0; i < n; i++) {
+                    for (int j = i + 1; j < n; j++) {
+                        for (int z = j + 1; z < n; z++) {
+                            k++;
+                        }
+                    }
                 }
+                System.out.println("The result is " + k);
             }
         }
-        System.out.println("The result is " + k);
-    }
-}
-</pre>
-</div>
-<div><br></div>
+        </pre>
+        </div>
+        <div><br></div>
 
-<ol start="4">
+        <ol start="4">
 
-<li>Есть массив с числами упорядоченными по возрастанию, нужно определить есть ли в этом массиве 2 числа, сумма которых равна "sum".
-</li></ol><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Пример ввода:
-</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a = {1, 5, 7, 9, 12}
-</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum = 12
-</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Результат:
-</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;true - так как 5 + 7 = 12
-</div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a = {1, 5, 7, 9, 12}
-</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum = 3
-</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Результат:
-</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;false - так как нет двух чисел, которые в сумме дают 3</div>
-</div>
+        <li>Есть массив с числами упорядоченными по возрастанию, нужно определить есть ли в этом массиве 2 числа, сумма которых равна "sum".
+        </li></ol><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Пример ввода:
+        </div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a = {1, 5, 7, 9, 12}
+        </div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum = 12
+        </div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Результат:
+        </div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;true - так как 5 + 7 = 12
+        </div><div><br></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a = {1, 5, 7, 9, 12}
+        </div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum = 3
+        </div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Результат:
+        </div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;false - так как нет двух чисел, которые в сумме дают 3</div>
+        </div>
     </div>
 
     <div id="lesson_7" class="tabcontent">
-      <h1>Lesson 7 - </h1>
+      <h1>Lesson 7 - Testing basics and classes</h1>
+      <div>
+        <div><a name="370">
+        <span></span></a><div><a name="370"><div>Part 1:</div></a><ol><a name="370"><li>Create calculator class</li><li>Add tests for each method</li><li>Show TDD principle</li><li>Factorial task (10 -&gt; 2) with tests (students)</li></a><li><a name="370">String calculator kata:&nbsp;</a><a href="http://osherove.com/tdd-kata-1/" rev="en_rl_minimal">http://osherove.com/tdd-kata-1/</a></li><li>Low circuit operations</li><li>Break and continue</li><li>Shift operation</li><li>Lambdas</li></ol><div><br></div><div>Part 2:</div><ol><li>What is OOP (examples objects from real life)</li><li>Lamp example:<br>
+        - behavior (functions): switchOn, switchOff<br>
+        - condition (variables): type (fluorescent, led, incandescent), power, color, shines</li><li>Object creation<br>
+        - what is reference (houses and their addresses)<br>
+        - object in the Heap<br>
+        - default values</li><li>Constructor - define initial state</li><li>Reassigning reference (lamp2 = lamp1)</li></ol><div><br></div><div>Part 3:</div><ol><li>Complex numbers</li><li>Create own datatype</li></ol><div><br></div><div>Part 4:</div><ol><li>Download junit.jar and hamcrest.jar</li><li>org.junit.Assert, org.junit.Test, org.hamcrest.core.Is.is</li><li>org.junit.runner.JUnitCore</li></ol><div><br></div></div><div><br></div>
+        </div>
+      </div>
+
       <h1>Lesson 7 - Homework</h1>
+      <div>
+      <div><span><ol><li> Создайте класс и определите методы для предмета "Фонарь". У него будет название, определенное количество батареек, которые можно вставить, он должен уметь светить красным, белым светом, а также мигать, причем для белого света достаточно одной батарейки, для красного нужно 2, для мигающего нужно 3 (свойство int battery, которое будет хранить количество батареек для этого подойдет). Вы можете добавить возможности фонаря, как сочтете нужным.
+      <br></li></ol><div><br></div><ol start="2"><li> Придумайте еще 2 каких-нибудь объекта из реальной жизни и реализуйте это с помощью класса.<br></li></ol></span>
+      </div>
+    </div>
+
+    <div id="lesson_8" class="tabcontent">
+      <h1>Lesson 8 - Hamcrest library and sorting algorithms</h1>
+      <h1>Lesson 8 - Homework</h1>
+    </div>
+
+    <div id="lesson_9" class="tabcontent">
+      <h1>Lesson 9 - Complexity of algorithms and arrays sorting</h1>
+      <h1>Lesson 9 - Homework</h1>
+    </div>
+
+    <div id="lesson_10" class="tabcontent">
+      <h1>Lesson 10 - Recursion</h1>
+      <h1>Lesson 10 - Homework</h1>
     </div>
 
     <script>
@@ -790,5 +820,5 @@ public class Algorithm {
       }
       document.getElementsByClassName("next")[0].click();
     </script>
-  </body>
+  </div>
 </html>
