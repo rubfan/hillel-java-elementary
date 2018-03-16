@@ -1,10 +1,14 @@
 package ua.od.hillel;
 
 
+import java.util.stream.IntStream;
+
 //=======File1======
 public class Main {
 
+    // mvn archetype:generate -DgroupId=com.mkyong.core.utils -DartifactId=dateUtils -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
     public static void main(String[] args) {
+        //intStreamExamples();
 
         // initialisation
         Pie p1 = new Pie();
@@ -16,6 +20,27 @@ public class Main {
         System.out.println(p1.testo);
         System.out.println(p2.testo);
         System.out.println(p3.testo);
+    }
+
+    /**
+     * Java 8: Replace traditional "for" loops with IntStreams
+     */
+    public static void intStreamExamples() {
+//        IntStream.of(1, 2, 3);// > 1, 2, 3
+//        IntStream.range(1, 3);// > 1, 2
+//        IntStream.rangeClosed(1, 3);// > 1, 2, 3
+//        IntStream.range(1, 5).filter(i -> i % 2 == 0).allMatch(i -> i % 2 == 0);// > true
+//        IntStream.range(1, 5).filter(i -> i % 2 == 0).noneMatch(i -> i % 2 != 0);// > true
+//        IntStream.range(1, 5).anyMatch(i -> i % 2 == 0);// > true
+//        IntStream.range(1, 5).max().getAsInt();// > 4
+//        IntStream.range(1, 5).min().getAsInt();// > 1
+//        IntStream.iterate(0, i -> i + 2).limit(3);// > 0, 2, 4
+//        IntStream.range(1, 5).reduce(1, (x, y) -> x * y);// > 24
+
+        IntStream.rangeClosed(1, 8).forEach(i -> anyOperation(i));
+    }
+    public static void anyOperation(int i) {
+        System.out.println(i);
     }
 }
 
