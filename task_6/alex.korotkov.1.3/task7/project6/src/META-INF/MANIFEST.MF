@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: ua.od.hillel
+Main-Class: ua.od.hillel.Main
+
