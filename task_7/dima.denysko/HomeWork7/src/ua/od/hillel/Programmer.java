@@ -1,4 +1,5 @@
 package ua.od.hillel;
+
 /**
  * Created by dmytro.denysko on 15.03.2018.
  */
@@ -7,19 +8,19 @@ public class Programmer {
     private String level;
     private int skill;
     private int stress;
-    private int money;
+    private Purse purse;
     private boolean books;
     private boolean isLive;
 
     public Programmer(String name) {
         this.name = name;
         level = "Vilna Kassa";
-        money = 100;
+        purse = new Purse(100);
         isLive = true;
     }
 
-    private boolean checkMoney(int money){
-        if (this.money < money) {
+    private boolean checkMoney(int money) {
+        if (purse.getManey() < money) {
             System.out.println("Sorry, not enough minerals:)");
             return false;
         } else
@@ -30,7 +31,7 @@ public class Programmer {
     private void checkLevel() {
         if (skill >= 30 && skill < 60) level = "Junior";
         else if (skill >= 60 && skill < 100) level = "Middle";
-        else if(skill >= 100) level = "Senior";
+        else if (skill >= 100) level = "Senior";
     }
 
     private boolean chekALive() {
@@ -45,7 +46,7 @@ public class Programmer {
         if (!chekALive()) return;
         System.out.println(name + " your Skill is " + skill + " and Level-" + level);
         System.out.println("Your stress is " + stress + "%");
-        System.out.println("And money " + money);
+        System.out.println("And money " + purse.getManey());
     }
 
     public void buyBooks() {
@@ -57,7 +58,7 @@ public class Programmer {
         if (!checkMoney(20)) {
             return;
         }
-        money -= 20;
+        purse.setManey(purse.getManey() - 20);
         books = true;
         System.out.println("You buy a books");
     }
@@ -81,17 +82,17 @@ public class Programmer {
     public void goToHillelCourses() {
         if (!chekALive()) return;
         if (!checkMoney(120)) return;
-        money -= 120;
+        purse.setManey(purse.getManey() - 120);
         stress += 50;
         if (!chekALive()) return;
         skill += 40;
         checkLevel();
     }
 
-    public void goToPub(){
+    public void goToPub() {
         if (!chekALive()) return;
         if (!checkMoney(10)) return;
-        money -= 10;
+        purse.setManey(purse.getManey() - 10);
         stress = 0;
         System.out.println("I like a beer :)");
     }
@@ -100,22 +101,22 @@ public class Programmer {
         if (!chekALive()) return;
         switch (level) {
             case "Vilna Kassa":
-                money += 30;
+                purse.setManey(purse.getManey() + 30);
                 stress += 40;
                 System.out.println("McDonald's give you: 30 USD");
                 break;
             case "Junior":
-                money += 100;
+                purse.setManey(purse.getManey() + 100);
                 stress += 25;
                 System.out.println("Good job, take 100 USD");
                 break;
             case "Middle":
-                money += 1000;
+                purse.setManey(purse.getManey() + 1000);
                 stress += 15;
                 System.out.println("Not Bad, take 1000 USD");
                 break;
             case "Senior":
-                money += 10000;
+                purse.setManey(purse.getManey() + 10000);
                 stress = 0; //:)
                 System.out.println("You slept well, take 10000 USD");
                 break;
