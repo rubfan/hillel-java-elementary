@@ -15,9 +15,9 @@ public class Main {
 //        sixTask(arr);
 //        sevenTask(arr);
 //        eightTask();
-//        nineTask(7);
+        nineTask(7);
 //        tenTask(arr);
-        System.out.println(elevenTask(4546854643154684L));
+//        System.out.println(elevenTask(4546854643154684L));
     }
 
     public static void firstTask() {
