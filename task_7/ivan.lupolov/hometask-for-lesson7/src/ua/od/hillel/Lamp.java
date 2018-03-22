@@ -76,6 +76,10 @@ public class Lamp {
         }
     }
 
+    public int getBattery() {
+        return battery;
+    }
+
     @Override
     public String toString() {
         return "Lamp{" +
