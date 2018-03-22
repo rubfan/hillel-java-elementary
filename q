@@ -1,0 +1,841 @@
+[33mcommit f3ce4e5f26186fb87c602da3c49d2f27dcf6d618[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: EvheniyHritsaenko <zhenya089@gmail.com>
+Date:   Sun Mar 18 00:10:57 2018 +0200
+
+    HW6 (task 1-2)
+
+[33mcommit 584637d7e2e9411242c3931b085644dc3bb5d7f1[m
+Author: EvheniyHritsaenko <zhenya089@gmail.com>
+Date:   Sat Mar 17 21:13:32 2018 +0200
+
+    HW5
+
+[33mcommit f39b86d6a81867ad9aad530ca2f343dbbc735244[m
+Author: EvheniyHritsaenko <zhenya089@gmail.com>
+Date:   Sat Mar 17 13:50:23 2018 +0200
+
+    LessonJAR
+
+[33mcommit 24adc83a349bed7a5c8a98614ff94d89d99771b4[m[33m ([m[1;31mupstream/master[m[33m)[m
+Merge: d247b07 50634a1
+Author: rubfan <rubfan@gmail.com>
+Date:   Sun Mar 11 00:18:16 2018 +0200
+
+    Merge pull request #34 from EvheniyHricaenko/master
+    
+    HW_4
+
+[33mcommit 50634a113f0d47f94aba9b15f14d57488e9c88b5[m
+Author: EvheniyHritsaenko <zhenya089@gmail.com>
+Date:   Sun Mar 11 00:12:33 2018 +0200
+
+    HW_4
+
+[33mcommit d247b0762f384f04ca8328ac56e6445138dd0d2e[m
+Merge: 71eaf21 d21cbf1
+Author: rubfan <rubfan@gmail.com>
+Date:   Sun Mar 11 00:12:00 2018 +0200
+
+    Merge pull request #32 from lupolov-ivan/master
+    
+    Hometask for lesson 3 and 4
+
+[33mcommit 71eaf215e4a662e9ea9a10295ecd74f705c6962a[m
+Merge: 55facbd ad1f7ed
+Author: rubfan <rubfan@gmail.com>
+Date:   Sun Mar 11 00:07:39 2018 +0200
+
+    Merge pull request #23 from EvheniyHricaenko/master
+    
+    HW #3 (Calc & tip)
+
+[33mcommit 55facbd8cadf1d1cff850dddc9ca3e5d41755702[m
+Merge: 020de6f 1f2b731
+Author: rubfan <rubfan@gmail.com>
+Date:   Sun Mar 11 00:04:37 2018 +0200
+
+    Merge pull request #33 from DenovVasil/branch2
+    
+    HoMeWoRk#3 Finish
+
+[33mcommit 020de6f3d2521ca269fe39474537a9eabbb3a646[m
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Sat Mar 10 23:59:36 2018 +0200
+
+    Added Pie project and additional info about Maven
+
+[33mcommit d21cbf18071a2e96d5bcaa00f5dd9ad7a66bf1e4[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Sat Mar 10 13:57:05 2018 +0200
+
+    improved method toBinary()
+
+[33mcommit 1f2b731bd5b68a5466e9bc2b5791b86dfb94fb56[m
+Author: Denov Vasiliy <sdamhatu1488@gmail.com>
+Date:   Sat Mar 10 02:00:22 2018 +0200
+
+    HoMeWoRk#3IsDoNe
+
+[33mcommit 2457bc5bcd20da2c1bb5924f99442c159704cebc[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Thu Mar 8 01:44:15 2018 +0200
+
+    fix calculator
+
+[33mcommit e8d456a3bf250219fcfb235b0f3ff219eab7f7e2[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Thu Mar 8 01:42:39 2018 +0200
+
+    add home task for lesson 4 and fix calculator
+
+[33mcommit 54c7ef8f80d89b517d8331c8a22a820aa8c27ccf[m
+Merge: 7c527d1 3797383
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Wed Mar 7 18:27:10 2018 +0200
+
+    Merge branch 'master' of https://github.com/rubfan/hillel-java-elementary
+
+[33mcommit 7c527d1804643b93fae08bdc08b7a79169a6625c[m
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Wed Mar 7 18:26:40 2018 +0200
+
+    new lesson 6
+
+[33mcommit 37973833713c7072f593a9092fc6a395760374f3[m
+Merge: 958fd10 b258d0a
+Author: rubfan <rubfan@gmail.com>
+Date:   Wed Mar 7 14:39:55 2018 +0200
+
+    Merge pull request #27 from ruslana1319/master
+    
+    Homework_3
+
+[33mcommit b258d0adbb596849309e9c4a7a4d69ade3886f15[m
+Author: ruslana1319 <ruslana1319.d@gmail.com>
+Date:   Tue Mar 6 23:15:30 2018 +0200
+
+    Tips and Calculator commandline support
+
+[33mcommit 10f4cd4392102a127929346c4fc5c767b08f2e8c[m
+Author: ruslana1319 <ruslana1319.d@gmail.com>
+Date:   Tue Mar 6 22:32:26 2018 +0200
+
+    Homework 3 tips
+
+[33mcommit 2935f3d8325dbb43b3ee857961e6bc10958f86b0[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Tue Mar 6 01:17:41 2018 +0200
+
+    add method printSequence()
+
+[33mcommit 2d4cdc1ddebc538406a91684f795a4dc53f62e7e[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Tue Mar 6 01:02:48 2018 +0200
+
+    add Tips class
+
+[33mcommit 59503d8e3f58f2ec3e8a75925e879fca01948f0b[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Tue Mar 6 00:37:48 2018 +0200
+
+    add Calculator class
+
+[33mcommit 5c51f28b131b6278bf34d9886a6dfd67bb35ac2a[m
+Author: Руся <rusya@MacBook-Pro-Rusa.local>
+Date:   Tue Mar 6 00:10:16 2018 +0200
+
+    Homework 3, console calculator done wip
+
+[33mcommit 958fd104f02b09bb4e398e6802cf84af52736d12[m
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Sun Mar 4 20:52:31 2018 +0200
+
+    Blackjack has been added.
+
+[33mcommit a3d033a317e95b6a797aeecd32fefa3798e15fe0[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Sun Mar 4 11:05:31 2018 +0200
+
+    add to ignore *.class
+
+[33mcommit 0351f516606006f01269b7bb01b9d97bfe157e91[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Sun Mar 4 10:54:36 2018 +0200
+
+    delete trash
+
+[33mcommit 8313cbbc376a83e0872aa1ff0c91abfe8b170479[m
+Merge: b131919 6cc839b
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Sun Mar 4 10:23:28 2018 +0200
+
+    Merge branch 'master' of https://github.com/lupolov-ivan/hillel-java-elementary
+
+[33mcommit b1319199ee9f8a0cbc694a20fa5727940b8eedf6[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Sun Mar 4 10:14:02 2018 +0200
+
+    add directory task_4
+
+[33mcommit ad1f7ed1c9909ad3cddfad7162a7be981cf66998[m
+Author: EvheniyHritsaenko <zhenya089@gmail.com>
+Date:   Sat Mar 3 22:26:25 2018 +0200
+
+    Tip
+
+[33mcommit 9a7ecd13d6d5da8aff360169034f59e80952fd9b[m
+Author: EvheniyHritsaenko <zhenya089@gmail.com>
+Date:   Sat Mar 3 22:25:31 2018 +0200
+
+    Standard calc and calc cmd param
+
+[33mcommit 6a9207048875bb99b916b311d08cc89732eb5407[m
+Author: Denov Vasiliy <sdamhatu1488@gmail.com>
+Date:   Sat Mar 3 00:53:00 2018 +0200
+
+    HoMeWoRk#2 DoNe
+
+[33mcommit c4b641347f2d8c5cae8c2643a47fae2f106d337c[m
+Merge: 9e12630 a7e83fa
+Author: rubfan <rubfan@gmail.com>
+Date:   Wed Feb 28 14:20:03 2018 +0200
+
+    Merge pull request #17 from EvheniyHricaenko/master
+    
+    Home work 1 + DataTypes
+
+[33mcommit 9e12630d3a0dd51860d6341dd3924db409d9e1ad[m
+Merge: 203ad80 ffced5e
+Author: rubfan <rubfan@gmail.com>
+Date:   Wed Feb 28 14:18:15 2018 +0200
+
+    Merge pull request #18 from ruslana1319/master
+    
+    task_1, task_2, task_3
+
+[33mcommit ffced5eadb3c020e35286babecd75d5641a08a5d[m
+Author: ruslana1319 <ruslana1319.d@gmail.com>
+Date:   Tue Feb 27 23:43:03 2018 +0200
+
+    task_3
+
+[33mcommit 25fb03533bd27d43bc633e2e8e2c035e3e9963cd[m
+Author: ruslana1319 <ruslana1319.d@gmail.com>
+Date:   Tue Feb 27 23:36:15 2018 +0200
+
+    task2 redone
+
+[33mcommit 5f69352f7db4ca77cd4a841f6ba64d40d39844ee[m
+Author: ruslana1319 <ruslana1319.d@gmail.com>
+Date:   Tue Feb 27 22:44:24 2018 +0200
+
+    task 2
+
+[33mcommit a7e83faf838a3de4b9cf860a64e67c081b7ca318[m
+Author: EvheniyHritsaenko <zhenya089@gmail.com>
+Date:   Tue Feb 27 22:44:08 2018 +0200
+
+    DataTypes
+
+[33mcommit a52fcf53f9cf2a55dceea08ad95466a86f7e5d0c[m
+Author: EvheniyHritsaenko <zhenya089@gmail.com>
+Date:   Tue Feb 27 22:21:49 2018 +0200
+
+    Home work 1
+
+[33mcommit 0c53ae1827abadec693dbebc3b39fe64445c210f[m
+Author: ruslana1319 <ruslana1319.d@gmail.com>
+Date:   Tue Feb 27 22:19:44 2018 +0200
+
+    wip
+
+[33mcommit 167ab6287a7d4a1b3404b3e7b8a223406a9bab93[m
+Merge: 18262f3 203ad80
+Author: ruslana1319 <ruslana1319.d@gmail.com>
+Date:   Tue Feb 27 21:59:46 2018 +0200
+
+    Merge branch 'master' of https://github.com/rubfan/hillel-java-elementary
+
+[33mcommit 203ad80fb79e9e288c3a2889c625391a19e734f2[m
+Merge: 2143f9a 6cc839b
+Author: rubfan <rubfan@gmail.com>
+Date:   Tue Feb 27 11:33:01 2018 +0200
+
+    Merge pull request #15 from lupolov-ivan/master
+    
+    some fix
+
+[33mcommit 2143f9ab0f5848ab59cc50a8994aae27fd1658e1[m
+Merge: b1c736a 53d924c
+Author: rubfan <rubfan@gmail.com>
+Date:   Tue Feb 27 10:55:42 2018 +0200
+
+    Merge pull request #16 from rickdemonn/master
+    
+    Home Work lesson 3 and lesson 4
+
+[33mcommit 53d924c4aa9023fc6c701d345567007a487c6aef[m
+Author: rickdemonn <rickdemonn@gmail.com>
+Date:   Mon Feb 26 19:39:33 2018 +0200
+
+    My Home work. New task_4 and task_5
+
+[33mcommit 6cc839b52c6fe96cb7cc6211c10c0dd8bb4d7aa2[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Mon Feb 26 14:48:49 2018 +0200
+
+    deleted trash
+
+[33mcommit d46252e6da00615771bfa545d3db7e6a0da61431[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Mon Feb 26 14:43:00 2018 +0200
+
+    Merge branch 'master' of https://github.com/rubfan/hillel-java-elementary
+    
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+[33mcommit 927cc511fe072daa508a03aeee7adee75aba41f4[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Sun Feb 25 19:47:42 2018 +0200
+
+    some fix
+
+[33mcommit da626387748b10c9667bf122d28776df77a91b0f[m
+Merge: d130d01 b1c736a
+Author: rickdemonn <rickdemonn@gmail.com>
+Date:   Sun Feb 25 16:05:28 2018 +0200
+
+    Merge https://github.com/rubfan/hillel-java-elementary
+
+[33mcommit d130d014f3b9ec122e4745daae123eeadbb2b6c6[m
+Author: rickdemonn <rickdemonn@gmail.com>
+Date:   Sun Feb 25 16:01:24 2018 +0200
+
+    Create task_3
+
+[33mcommit b1c736ae5ce945d50e19634d441c6033c6014c7d[m
+Merge: 0565a17 d7f69ba
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Sun Feb 25 13:59:19 2018 +0200
+
+    Merge branch 'ant1xr1s-master'
+
+[33mcommit d7f69bac6f4fae8af0840d1ab00ec7edbe009796[m
+Merge: 0565a17 55dabaa
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Sun Feb 25 13:59:00 2018 +0200
+
+    Fixed some bugs
+
+[33mcommit 0565a17d0d90708701e91b92258acecb230eea7a[m
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Sun Feb 25 13:54:25 2018 +0200
+
+    Fixed some bugs
+
+[33mcommit 2f3ed2aa8a967c9a54d487906c22edac9135c4e6[m
+Merge: db0f98c 6a82eae
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Sun Feb 25 13:39:37 2018 +0200
+
+    Merge branch 'master' of https://github.com/rubfan/hillel-java-elementary
+
+[33mcommit db0f98cee6b1b9bd2323bd4d3a7cd8e69a28433e[m
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Sun Feb 25 13:39:16 2018 +0200
+
+    Added new project and some changes to Guide
+
+[33mcommit 6a82eae9aac764b86ea2284e41a21e2742bb9308[m
+Merge: 4240a4b 6cb075a
+Author: rubfan <rubfan@gmail.com>
+Date:   Sat Feb 24 21:31:24 2018 +0200
+
+    Merge pull request #6 from Jamesson13/master
+    
+    task 2 by Vlad.kodzhebash
+
+[33mcommit 4240a4bf1e121d9229543c69c679693499b8ec51[m
+Merge: c1cdf3c c844ed9
+Author: rubfan <rubfan@gmail.com>
+Date:   Sat Feb 24 21:30:04 2018 +0200
+
+    Merge pull request #13 from Alexus881/master
+    
+    Task2 & Task3 commit
+
+[33mcommit c1cdf3c5d77c7905ce9911469a6bfdcb5ddd89bd[m
+Merge: 90351a0 0243726
+Author: rubfan <rubfan@gmail.com>
+Date:   Sat Feb 24 21:28:40 2018 +0200
+
+    Merge pull request #14 from lupolov-ivan/master
+    
+    Add hometask #1 and #2
+
+[33mcommit 90351a0fc376079db310c2e5091d3d3420d12b49[m
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Sat Feb 24 21:25:30 2018 +0200
+
+    Added new Slack links to Guide
+
+[33mcommit 6cb075a7f2546cf45648f64b66751260016ad2a9[m
+Author: Jamesson13 <36486948+Jamesson13@users.noreply.github.com>
+Date:   Sat Feb 24 15:17:12 2018 +0200
+
+    Delete .DS_Store
+
+[33mcommit 7b1d29e1626f063f6ecb4fbd92f0bcd70d73365f[m
+Author: Jamesson13 <36486948+Jamesson13@users.noreply.github.com>
+Date:   Sat Feb 24 15:16:49 2018 +0200
+
+    Delete .DS_Store
+
+[33mcommit e478bf94b110dc06695ec110b048778b65a6e492[m
+Author: Jamesson13 <36486948+Jamesson13@users.noreply.github.com>
+Date:   Sat Feb 24 15:16:22 2018 +0200
+
+    Delete .DS_Store
+
+[33mcommit 8a1c2cf08672f33c099bcdf70b52818524d9005d[m
+Author: Jamesson13 <36486948+Jamesson13@users.noreply.github.com>
+Date:   Sat Feb 24 15:15:32 2018 +0200
+
+    Delete .DS_Store
+
+[33mcommit a6911e2f7965138302cbd26b8d10b58b2717a4c4[m
+Author: Jamesson13 <36486948+Jamesson13@users.noreply.github.com>
+Date:   Sat Feb 24 15:15:09 2018 +0200
+
+    Delete .DS_Store
+
+[33mcommit c4edec21105425d7cd1ad72dd0be0c7216a13c97[m
+Author: Jamesson13 <36486948+Jamesson13@users.noreply.github.com>
+Date:   Sat Feb 24 15:14:10 2018 +0200
+
+    Delete .DS_Store
+
+[33mcommit 19f2f5debfebf0480d323425d915a9cf980d8fa0[m
+Author: Jamesson13 <36486948+Jamesson13@users.noreply.github.com>
+Date:   Sat Feb 24 15:13:19 2018 +0200
+
+    Delete .DS_Store
+    
+    I don't need it
+
+[33mcommit e34277f61ac90434f39bb194edaaa71d00032423[m
+Author: Jamesson13 <36486948+Jamesson13@users.noreply.github.com>
+Date:   Sat Feb 24 15:12:48 2018 +0200
+
+    Delete .DS_Store
+    
+    I don't need it
+
+[33mcommit b8b24c6b75defc56c6dbd41a10a414d5253b40c0[m
+Author: Jamesson <vladun4ic@gmail.com>
+Date:   Sat Feb 24 15:10:33 2018 +0200
+
+    4th lesson
+
+[33mcommit 024372665bfee438bbf66d5cef971d33d6edc279[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Sat Feb 24 00:07:38 2018 +0200
+
+    add new project and class Main for learning size primitive type
+
+[33mcommit a48142a8872cd4fc5fe272bfc4dabc59abad20d0[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Fri Feb 23 23:55:19 2018 +0200
+
+    delete empty string
+
+[33mcommit 0aa1eaa93cb9201b37148f4f209718410ade15fd[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Fri Feb 23 23:53:26 2018 +0200
+
+    Method calls were added in the main method
+
+[33mcommit c26ac6ce29b41452731e1baa335c89bd877d650f[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Fri Feb 23 23:08:30 2018 +0200
+
+    add method calculateRent()
+
+[33mcommit a61cc360864ab31d1b4c92b33c1e28f5d31ada2e[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Fri Feb 23 23:07:13 2018 +0200
+
+    add method closestToNumberTen()
+
+[33mcommit 0a8a6c717acbb29cb8d233a746b982989dbac314[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Fri Feb 23 23:05:26 2018 +0200
+
+    add method isDivisionWithoutResidue()
+
+[33mcommit 9d2fce175692709bf8d3adee3d6ff208c0f370ec[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Fri Feb 23 23:04:27 2018 +0200
+
+    add method isParity()
+
+[33mcommit 22c89186897701aa58ac8256d8636fbd29c526a0[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Fri Feb 23 23:03:35 2018 +0200
+
+    add method allMinOfThreeNumbers()
+
+[33mcommit 3641422af4848e5b477969622e283f02f4c7ade4[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Fri Feb 23 23:02:06 2018 +0200
+
+    add method minAndMaxNumbers()
+
+[33mcommit 417b1e2c8308e310bc37a7adb42ce31033c3df1a[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Fri Feb 23 23:00:36 2018 +0200
+
+    add method minOfThreeNumbers()
+
+[33mcommit 38d698ed2f476491bd716d379925f6e4768660ac[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Fri Feb 23 22:57:22 2018 +0200
+
+    create new project
+
+[33mcommit 1d6e7f0b9147d0656ffa126c9b2c84da1fda796a[m
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Fri Feb 23 16:39:40 2018 +0200
+
+    I have added the new Java Elementary Guide
+
+[33mcommit c844ed956580f75d53042b5f587af10834ed6ef4[m
+Author: Alexei Korotkov <akorotkov@slice.com>
+Date:   Fri Feb 23 10:48:48 2018 +0200
+
+    Task2 & Task3 commit
+
+[33mcommit 6f0604ff7c0edbb44f9904161e968243c2750e6d[m
+Merge: 5a4f1c8 37c1166
+Author: rubfan <rubfan@gmail.com>
+Date:   Thu Feb 22 21:42:42 2018 +0200
+
+    Merge pull request #12 from KnyazhevAndrew/master
+    
+    Андрей Княжев, task 1,2,3
+
+[33mcommit 37c1166c9615e13b619dd9c42cc0e5b9afc8100b[m
+Author: KnyazhevAndrew <knyazz68@gmail.com>
+Date:   Thu Feb 22 15:11:30 2018 +0200
+
+    Third task
+
+[33mcommit 5a4f1c8ba01ef742a0de05ea7dfb8d6da448127a[m
+Merge: 002a5d9 3a4a23c
+Author: rubfan <rubfan@gmail.com>
+Date:   Wed Feb 21 23:42:00 2018 +0200
+
+    Merge pull request #4 from rickdemonn/master
+    
+    task1,task2
+
+[33mcommit 002a5d96e34694395ad266e0a47176beb4f22d61[m
+Merge: 4300eaf 0ab09ee
+Author: rubfan <rubfan@gmail.com>
+Date:   Wed Feb 21 23:37:14 2018 +0200
+
+    Merge pull request #2 from lupolov-ivan/master
+    
+    first commit
+
+[33mcommit 4300eaf5fae84feab14499c1d5610cf2950f5bfa[m
+Merge: fb9d8ba c1f58d1
+Author: rubfan <rubfan@gmail.com>
+Date:   Wed Feb 21 23:36:45 2018 +0200
+
+    Merge pull request #7 from slavajava/master
+    
+    Task_1, Task_2 commited
+
+[33mcommit fb9d8bab9ffc35d4a8dd9506a522727ef0c2a525[m
+Merge: cd11718 807f50b
+Author: rubfan <rubfan@gmail.com>
+Date:   Wed Feb 21 23:36:24 2018 +0200
+
+    Merge pull request #1 from Alexus881/master
+    
+    First commit akorotkov
+
+[33mcommit cd117187aa41caa7fcca59b80be3fbeec8c31648[m
+Merge: f8dd313 b460cc0
+Author: rubfan <rubfan@gmail.com>
+Date:   Wed Feb 21 23:34:44 2018 +0200
+
+    Merge pull request #9 from EgorFomin/master
+    
+    ПУЛРЕКВЕСТ!!!!
+
+[33mcommit f8dd3135e838f365a6d1ead43821cbde982065c0[m
+Merge: d9933b0 7d692f5
+Author: rubfan <rubfan@gmail.com>
+Date:   Wed Feb 21 23:34:31 2018 +0200
+
+    Merge pull request #11 from DenovVasil/branch2
+    
+    залил из Branch2
+
+[33mcommit b460cc00d7efbd0a97dfcee62882a49586d0799d[m
+Author: EgorFomin <egorfomin97@gmail.com>
+Date:   Wed Feb 21 22:15:48 2018 +0200
+
+    работа в классе lesson4
+
+[33mcommit d9933b00b67761c775eb1a58039b54ec4dfd3b40[m
+Merge: 2c6cba7 bea2cba
+Author: rubfan <rubfan@gmail.com>
+Date:   Wed Feb 21 22:09:46 2018 +0200
+
+    Merge pull request #8 from EvheniyHricaenko/master
+    
+    Я Женя Грицаенко, мое домашнее задание
+
+[33mcommit c1f58d14fcef9d3a824fa3917206a7094ae4c970[m
+Author: Slava.1.5 <vve1991@gmail.com>
+Date:   Wed Feb 21 21:53:23 2018 +0200
+
+    added java type project during lesson 4
+
+[33mcommit 5adfe275e928f22924d6cd44a927a9f9600a9716[m
+Author: Jamesson <vladun4ic@gmail.com>
+Date:   Wed Feb 21 21:53:20 2018 +0200
+
+    lesson4
+    
+    lesson 4
+
+[33mcommit 0aa944e25b6d820383fabfbdaafe91422ccf2a19[m
+Author: Slava.1.5 <vve1991@gmail.com>
+Date:   Wed Feb 21 21:24:06 2018 +0200
+
+    project directories + lesson_4 changes
+
+[33mcommit 76a8f3f026e18cf0f891e01ed968cbc70675a632[m
+Author: Slava.1.5 <vve1991@gmail.com>
+Date:   Wed Feb 21 19:42:37 2018 +0200
+
+    Task_2 added
+
+[33mcommit 065373dde4eda6acbcd4c21a92f86f15621fb00f[m
+Author: Vlad Kodzhebash <vlad_kodzhebash@MBP-Vlad.WORKGROUP>
+Date:   Wed Feb 21 19:35:15 2018 +0200
+
+    First home work
+
+[33mcommit 093db1b222741624a4eb7bf18327438d1e98a084[m
+Author: KnyazhevAndrew <knyazz68@gmail.com>
+Date:   Wed Feb 21 19:21:33 2018 +0200
+
+    First Hometask
+
+[33mcommit 7d692f5908833540b218003e761c3daac5685166[m
+Author: Denov Vasiliy <sdamhatu1488@gmail.com>
+Date:   Wed Feb 21 14:56:06 2018 +0200
+
+    Java docs
+
+[33mcommit 7a18ec88781082824d16b6eee71fd3846ab78232[m
+Author: Denov Vasiliy <sdamhatu1488@gmail.com>
+Date:   Wed Feb 21 14:30:16 2018 +0200
+
+    This is Lesson
+
+[33mcommit 18262f391158111b8b52a35634da6be87e341abf[m
+Author: ruslana1319 <ruslana1319.d@gmail.com>
+Date:   Wed Feb 21 00:00:43 2018 +0200
+
+    the task for lesson 2
+
+[33mcommit 55dabaa17c6ac3727cee69d98dbc38dbd6998439[m
+Author: ant1xr1s <at1xr1s@gmail.com>
+Date:   Tue Feb 20 14:44:48 2018 +0200
+
+    my commit
+
+[33mcommit bea2cba5641387822f76a2db5ef27f8d352ee922[m
+Merge: 0890663 2c6cba7
+Author: EvheniyHritsaenko <zhenya089@gmail.com>
+Date:   Tue Feb 20 12:21:21 2018 +0200
+
+    Merge branch 'master' of https://github.com/rubfan/hillel-java-elementary
+
+[33mcommit 0ab09ee8b8015e169b8d5e72e129c75ef2de193d[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Mon Feb 19 21:54:23 2018 +0200
+
+    add gitignore
+
+[33mcommit 3a4a23cff852f6dd19ff2e1df8b690ca65ecc309[m
+Author: rickdemonn <rickdemonn@gmail.com>
+Date:   Sun Feb 18 18:38:18 2018 +0200
+
+    My second task
+
+[33mcommit c2389114c55fc0d2c6ae032cba630b049759664f[m
+Author: rickdemonn <rickdemonn@gmail.com>
+Date:   Sun Feb 18 17:27:10 2018 +0200
+
+    My first Task
+
+[33mcommit 76081456fb465ba7298ab06076e0c2222ed045e9[m
+Author: ruslana1319 <ruslana1319.d@gmail.com>
+Date:   Sun Feb 18 13:42:34 2018 +0200
+
+    docs has been added
+
+[33mcommit f45d109dfdcede6e2ad3acfb810bd426b1c257a4[m
+Author: ruslana1319 <ruslana1319.d@gmail.com>
+Date:   Sun Feb 18 13:07:58 2018 +0200
+
+    something
+
+[33mcommit c80ee6044524e3acd3824599e7cc8793ce1b3bf1[m
+Author: Vlad Kodzhebash <vlad_kodzhebash@MBP-Vlad.WORKGROUP>
+Date:   Sun Feb 18 12:30:21 2018 +0200
+
+    It my java docs
+
+[33mcommit 717cb1a3b9bbb626909104a193caf09a2093723d[m
+Author: Vlad Kodzhebash <vlad_kodzhebash@MBP-Vlad.WORKGROUP>
+Date:   Sun Feb 18 12:10:52 2018 +0200
+
+    this is first java Docs
+
+[33mcommit 5c71d655093e3628c7a4d1fc06036202958ca200[m
+Author: KnyazhevAndrew <knyazz68@gmail.com>
+Date:   Sun Feb 18 12:10:46 2018 +0200
+
+    Java Docs
+
+[33mcommit db5638059148c43ffa6df1d25fe4948b4d07b687[m
+Author: EgorFomin <egorfomin97@gmail.com>
+Date:   Sun Feb 18 12:10:35 2018 +0200
+
+    Java docs
+
+[33mcommit 0890663991fd904dab980c4477557aa7620e46f1[m
+Author: EvheniyHritsaenko <zhenya089@gmail.com>
+Date:   Sun Feb 18 12:10:33 2018 +0200
+
+    Docs
+
+[33mcommit 2c6cba7bdf86e650f7ae6a466f2fa58aca937761[m
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Sun Feb 18 12:10:12 2018 +0200
+
+    This is lesson about Java Docs.
+
+[33mcommit 566f63c81ae2cc157cf9f44c8c92683c59e9e554[m
+Author: EvheniyHritsaenko <zhenya089@gmail.com>
+Date:   Sun Feb 18 11:53:37 2018 +0200
+
+    This is lesson about Java coments.
+
+[33mcommit 546550dec0e454929c05e92578f18b0633b8b1c5[m
+Author: ruslana1319 <ruslana1319.d@gmail.com>
+Date:   Sun Feb 18 11:53:14 2018 +0200
+
+    something
+
+[33mcommit ba48ec1a246bffb8c9c366421b5aa4e9d0e55ca1[m
+Author: EgorFomin <egorfomin97@gmail.com>
+Date:   Sun Feb 18 11:50:24 2018 +0200
+
+    This is lesson about Java coment
+
+[33mcommit a50df1e8189c7fbb48b4cd01b89d0fa364161fc3[m
+Author: KnyazhevAndrew <knyazz68@gmail.com>
+Date:   Sun Feb 18 11:46:50 2018 +0200
+
+    Java comments in file
+
+[33mcommit 463d177f5c9e14e2e77f12ed6a64cc51bd45f348[m
+Author: Denov Vasiliy <sdamhatu1488@gmail.com>
+Date:   Sun Feb 18 11:44:35 2018 +0200
+
+    this is lesson aboun java.
+
+[33mcommit 82095ff07284bd86210deca1e5466ebe7a5c4165[m
+Author: slavajava <vve1991@gmail.com>
+Date:   Sun Feb 18 11:44:25 2018 +0200
+
+    some changes made during lesson_3
+
+[33mcommit 7409beaf04dd0b968f27c525ef5f589f5794582e[m
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Sun Feb 18 11:44:10 2018 +0200
+
+    This is lesson about Java comments.
+
+[33mcommit e96e2d036c7ca6a9941e5a797a07a98a8a61dc22[m
+Author: ruslana1319 <ruslana1319.d@gmail.com>
+Date:   Sat Feb 17 23:29:22 2018 +0200
+
+    test commit
+
+[33mcommit fd1b09d128162d4a22d385e1e52373a4f2a0eb66[m
+Author: slavajava <vve1991@gmail.com>
+Date:   Sat Feb 17 12:07:15 2018 +0200
+
+    learning git. pushing my FirstTask to fork
+
+[33mcommit a7f48dc2ce8a279fe03c0ab7cab887be841a60a7[m
+Author: slavajava <vve1991@gmail.com>
+Date:   Sat Feb 17 11:44:42 2018 +0200
+
+    learning git. pushing my FirstTask to fork
+
+[33mcommit 792a986f8350b15022fedb644ebd15d481824e59[m
+Author: lupolov-ivan <ivannaib2012@gmail.com>
+Date:   Sat Feb 17 01:25:37 2018 +0200
+
+    first commit
+
+[33mcommit 4687ff3d08547e08d35c794bca25dfeb32a25343[m
+Author: KnyazhevAndrew <knyazz68@gmail.com>
+Date:   Fri Feb 16 09:29:59 2018 +0200
+
+    first task
+
+[33mcommit 807f50bb10e9e0cfbdf7a1c0ce0eee76b507205b[m
+Author: Alexei Korotkov <akorotkov@slice.com>
+Date:   Thu Feb 15 11:30:18 2018 +0200
+
+    First commit akorotkov
+
+[33mcommit 618c9d4f8fce0e4c284028c934b9e3866472eb41[m
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Wed Feb 14 18:52:45 2018 +0200
+
+    Lesson 2: Generate Java Docs instructions
+
+[33mcommit 84d4b8e0956c0fea8e71661565f699e4dcbd299f[m
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Wed Feb 14 18:09:37 2018 +0200
+
+    Lesson 2: Git Basics
+
+[33mcommit fb4494e6672573523a8f4e371c60b86580644c4e[m
+Author: Ruslan Gramatic <ruslan.gramatic@opower.com>
+Date:   Wed Feb 14 17:52:38 2018 +0200
+
+    Lesson 1: Java Hello World
+
+[33mcommit daaad3cbfee73d8792d4c8bec45cd33f9d40f2c3[m
+Author: rubfan <rubfan@gmail.com>
+Date:   Wed Feb 14 13:17:55 2018 +0200
+
+    Initial commit
