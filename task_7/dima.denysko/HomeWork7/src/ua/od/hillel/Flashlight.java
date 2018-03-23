@@ -1,4 +1,5 @@
 package ua.od.hillel;
+
 /**
  * Created by dmytro.denysko on 15.03.2018.
  */
@@ -28,7 +29,7 @@ public class Flashlight {
     }
 
     public void switchFlashingLight() {
-        if(flashingLight){
+        if (flashingLight) {
             System.out.println("hey!, now and so it shines Flashing Light");
             return;
         }
@@ -45,7 +46,7 @@ public class Flashlight {
     }
 
     public void switchWhiteLight() {
-        if(whiteLight){
+        if (whiteLight) {
             System.out.println("hey!, now and so it shines White Light");
             return;
         }
@@ -62,7 +63,7 @@ public class Flashlight {
     }
 
     public void switchRedLight() {
-        if(redLight){
+        if (redLight) {
             System.out.println("hey!, now and so it shines Red Light");
             return;
         }
