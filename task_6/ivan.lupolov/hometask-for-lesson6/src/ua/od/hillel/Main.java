@@ -23,16 +23,12 @@ public class Main {
         for (int i = 0; i < mergeArray.length; i++) {
             System.out.print(mergeArray[i] + " ");
         }
-        
+
         /**Task 3*/
         testAlgorithm();
 
         /**Task 4*/
         System.out.println(sumExists(30,new int[]{1, 5, 7, 9, 12, 24,25,26,50}));
-        
-        
-
-
     }
 
     /**Task 1 - Сложность данного алгоритма ~ O(n^2)*/
@@ -55,7 +51,7 @@ public class Main {
             tmp = array[i];
             array[i] = min;
             array[index] = tmp;
-         }
+        }
 
         return array;
     }
