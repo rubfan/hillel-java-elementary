@@ -1,1 +1,0 @@
-typeSearchIndex = [{"p":"lessonCode","l":"LessonCode"}]
