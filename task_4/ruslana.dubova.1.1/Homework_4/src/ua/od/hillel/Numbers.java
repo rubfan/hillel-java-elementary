@@ -120,4 +120,79 @@ public class Numbers {
             }
         }
     }
+    protected long pow2(int k){
+        if(k==0){
+          return 1;
+        }
+        long res = 1;
+        for(int i = 1; i <= k; i++){
+            res *=2;
+        }
+        return res;
+    }
+    public void integerToBinary(int x) {
+        System.out.print("Binary representation of "+x+" is ");
+        int bits[] = new int[32];
+        for (int i = bits.length-1; i >= 0; i--) {
+            long p = pow2(i);
+            if (p <= x) {
+                x -= p;
+                bits[i] = 1;
+            } else {
+                bits[i] = 0;
+            }
+        }
+        for (int i = 0; i < bits.length; i++) {
+            System.out.print(bits[i]);
+        }
+        System.out.println(" ");
+    }
+
+    public void firstFiveMin(int[] ar){
+        System.out.println("First five minimal elements of ");
+        for(int j = 0; j<ar.length; j++) {
+            System.out.print(" "+ar[j]);
+        }
+        System.out.println(" are");
+        int [] min5 = { Integer.MAX_VALUE,
+                        Integer.MAX_VALUE,
+                        Integer.MAX_VALUE,
+                        Integer.MAX_VALUE,
+                        Integer.MAX_VALUE};
+
+        int lastMin = Integer.MIN_VALUE;
+
+        for(int i = 0; i <min5.length; i++){
+            for(int j = 0; j<ar.length; j++) {
+                if (ar[j] > lastMin) {
+                    min5[i] = Math.min(ar[j], min5[i]);
+                }
+            }
+            lastMin = min5[i];
+        }
+        for(int i = 0; i<min5.length; i++){
+            System.out.print(" "+min5[i]);
+        }
+        System.out.println(" ");
+    }
+    public void clumpDigits (int k){
+
+        int[] digits = splitNumberToDigits(k);
+        int sum = k;
+        while(sum >= 10){
+            sum = 0;
+            for(int i = 0; i<digits.length; i++){
+
+                if(digits[i]==0)
+                    continue;
+
+                sum += digits[i];
+                System.out.print(" "+digits[i]);
+            }
+            System.out.println(" = "+sum);
+            digits = new int[0];
+            digits = splitNumberToDigits(sum);
+        }
+
+    }
 }

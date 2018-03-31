@@ -21,5 +21,15 @@ public class Main {
         n.oddAndEvenSum(ar3);
 
         n.happyTickets();
+
+        n.integerToBinary(3);
+        n.integerToBinary(1234);
+        n.integerToBinary(65789);
+
+        int[] ar4={1, 25, 932, 194, 2, 6, 643, 642, 55, 11, 8, 50};
+        n.firstFiveMin(ar4);
+
+        n.clumpDigits(555555);
+        n.clumpDigits(979879);
     }
 }
