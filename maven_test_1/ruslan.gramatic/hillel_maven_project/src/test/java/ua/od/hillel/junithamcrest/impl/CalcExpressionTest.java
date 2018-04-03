@@ -1,4 +1,4 @@
-package ua.od.hillel.oop.junithamcrest.impl;
+package ua.od.hillel.junithamcrest.impl;
 
 
 
@@ -6,7 +6,11 @@ import org.junit.*;
 
 import static org.junit.Assert.*;
 
-import ua.od.hillel.oop.junithamcrest.CalcExpression;
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.CoreMatchers.instanceOf;
+import static org.hamcrest.MatcherAssert.assertThat;
+
+import ua.od.hillel.junithamcrest.CalcExpression;
 
 
 /**
@@ -52,8 +56,13 @@ public class CalcExpressionTest {
     @Test(expected = ArithmeticException.class)
     public void divideByZeroTest() {
         // divide case 3
-        calcExpression2.divide();
-        assertTrue(calcExpression2.getResult() == -1);
+        try {
+            calcExpression2.divide();
+            fail("should throw an exception");
+        } catch (ArithmeticException e){
+            assertThat(e.getMessage(), containsString("/ by zero"));
+            assertThat(e, instanceOf(ArithmeticException.class));
+        }
     }
 
     @Test

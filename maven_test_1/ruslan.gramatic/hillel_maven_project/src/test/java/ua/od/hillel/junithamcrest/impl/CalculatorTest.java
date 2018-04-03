@@ -1,4 +1,4 @@
-package ua.od.hillel.oop.junithamcrest.impl;
+package ua.od.hillel.junithamcrest.impl;
 
 /**
  * Created by ruslangramatic on 3/28/18.

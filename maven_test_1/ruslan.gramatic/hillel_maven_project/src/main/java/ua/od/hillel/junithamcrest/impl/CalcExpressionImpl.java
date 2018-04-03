@@ -1,6 +1,6 @@
-package ua.od.hillel.oop.junithamcrest.impl;
+package ua.od.hillel.junithamcrest.impl;
 
-import ua.od.hillel.oop.junithamcrest.CalcExpression;
+import ua.od.hillel.junithamcrest.CalcExpression;
 
 /**
  * Created by ruslangramatic on 3/25/18.

@@ -1,6 +1,6 @@
-package ua.od.hillel.oop.junithamcrest.impl;
+package ua.od.hillel.junithamcrest.impl;
 
-import ua.od.hillel.oop.junithamcrest.Calculator;
+import ua.od.hillel.junithamcrest.Calculator;
 
 /**
  * Created by ruslangramatic on 3/28/18.
