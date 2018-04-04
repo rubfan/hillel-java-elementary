@@ -20,8 +20,8 @@ public class CalcExpressionTest {
     public void init() {
         this.calcExpressioImpl1 = new CalcExpressionImpl(10, CalcExpression.ADD, 20);
         this.calcExpressioImpl2 = new CalcExpressionImpl(12, CalcExpression.DIVIDE, 20);
-        this.calcExpressioImpl3 = new CalcExpressionImpl(120, CalcExpression.SUBTRACTION, 20);
-        this.calcExpressioImpl4 = new CalcExpressionImpl(10, CalcExpression.MULTIPLY, 20);
+        this.calcExpressioImpl3 = new CalcExpressionImpl(20.6, CalcExpression.SUBTRACTION, 20);
+        this.calcExpressioImpl4 = new CalcExpressionImpl(0.03, CalcExpression.MULTIPLY, 20);
         this.calcExpressioImpl5 = new CalcExpressionImpl(0, CalcExpression.MULTIPLY, 20);
         this.calcExpressioImpl6 = new CalcExpressionImpl(10, CalcExpression.MULTIPLY, 0);
     }
