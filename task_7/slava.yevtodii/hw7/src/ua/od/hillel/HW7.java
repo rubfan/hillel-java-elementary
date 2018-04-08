@@ -5,14 +5,18 @@ public class HW7 {
     public static void main(String[] args) {
 
         //testingFlashLight();
-        testingFrankenstein();
+        Frankenstein monster = testingFrankenstein();
+        Fighter man = testingFighter();
+
+        man.battle(monster);
+
 
 
     }
 
     private static void testingFlashLight() {
 
-        System.out.println("!!! Flashlight !!!");
+        System.out.println("\n==================\n!!! Flashlight !!!\n==================\n");
 
         Flashlight flash = new Flashlight();
         Flashlight flash2 = new Flashlight();
@@ -39,26 +43,46 @@ public class HW7 {
         flash2.turnOff();
     }
 
-    private static void testingFrankenstein() {
+    private static Frankenstein testingFrankenstein() {
+
+        System.out.println("\n==================\n!!! FRANKENSTEIN !!!\n==================\n");
 
         Frankenstein frank = new Frankenstein();
-        Frankenstein doctor = new Frankenstein();
 
         frank.name = "Franky";
         frank.add("body");
         frank.add("head");
         frank.add("leg");
+        frank.add("leg");
         frank.add("arm");
         frank.add("arm");
         frank.remove("arm");
         frank.remove("arm");
 
-        frank.add("leg");
+        frank.add("arm");
+        frank.add("arm");
+        frank.add("arm");
         frank.wakeUp();
         frank.walking();
         frank.add("leg");
+        frank.destroy();
 
+        return frank;
 
+    }
 
+    private static Fighter testingFighter() {
+
+        System.out.println("\n==================\n!!! FIGHTER !!!\n==================\n");
+
+        Fighter fight = new Fighter();
+
+        fight.name = "Java";
+        fight.training();
+        fight.training("light");
+        fight.rest();
+        fight.training("hard");
+
+        return fight;
     }
 }

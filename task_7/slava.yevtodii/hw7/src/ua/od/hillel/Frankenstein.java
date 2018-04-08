@@ -114,6 +114,18 @@ public class Frankenstein {
 
     }
 
+    public void destroy() {
+        if (woken && checkArm && checkLeg) {
+            System.out.println(name + " realized how powerful he is. He destroys the lab where he was created and is going to destroy the rest of the world.." +
+                    "\nIt is all your fault.. I told you not to give him arms...");
+            power += 75;
+        }
+
+        else {
+            System.out.println("You are lucky that " + name + " is not so powerful yet. He cannot destroy anything");
+        }
+    }
+
 
 
 }
