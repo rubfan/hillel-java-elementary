@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+package ua.od.hillel;
+=======
 ﻿package ua.od.hillel;
+>>>>>>> 12455952ea2e25e89b64f7ecb9c96191b7f22ecf
 
 import java.util.Scanner;
 
@@ -14,6 +18,19 @@ public class Lesson6 {
     public static void main(String[] args) {
         //====Step-0 initialisation====
         String[] cards = {
+<<<<<<< HEAD
+            "6 чирва","7 чирва","8 чирва","9 чирва","10 чирва","J чирва","Q чирва","K чирва","A чирва",
+            "6 буба","7 буба","8 буба","9 буба","10 буба","J буба","Q буба","K буба","A буба",
+            "6 пика","7 пика","8 пика","9 пика","10 пика","J пика","Q пика","K пика","A пика",
+            "6 крест","7 крест","8 крест","9 крест","10 крест","J крест","Q крест","K крест","A крест"
+        };
+
+        int[] costs = {
+            6, 7, 8, 9, 10, 10, 10, 10, 11,
+            6, 7, 8, 9, 10, 10, 10, 10, 11,
+            6, 7, 8, 9, 10, 10, 10, 10, 11,
+            6, 7, 8, 9, 10, 10, 10, 10, 11
+=======
                 "2 чирва", "3 чирва", "4 чирва", "5 чирва", "6 чирва", "7 чирва", "8 чирва", "9 чирва", "10 чирва", "J чирва", "Q чирва", "K чирва", "A чирва",
                 "2 буба", "3 буба", "4 буба", "5 буба", "6 буба", "7 буба", "8 буба", "9 буба", "10 буба", "J буба", "Q буба", "K буба", "A буба",
                 "2 пика", "3 пика", "4 пика", "5 пика", "6 пика", "7 пика", "8 пика", "9 пика", "10 пика", "J пика", "Q пика", "K пика", "A пика",
@@ -25,6 +42,7 @@ public class Lesson6 {
                 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11,
                 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11,
                 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11
+>>>>>>> 12455952ea2e25e89b64f7ecb9c96191b7f22ecf
         };
 
         int currentCardIndex = 0;
@@ -44,6 +62,15 @@ public class Lesson6 {
         //====Step-3 Shuffle====
         shuffleDeck(deck);
 
+<<<<<<< HEAD
+        //====Step-4 Play====
+        play(args, playersScores, costs, deck, cards, playersInGame, currentCardIndex, scanner);
+
+        // ====Step-5 Winners====
+        showWinners(args, playersScores);
+    }
+
+=======
         //====Step-4 distribution======
         currentCardIndex = distribution(args, playersScores, costs, deck, cards, currentCardIndex);
 
@@ -80,6 +107,7 @@ public class Lesson6 {
             if (playersScores[i] == max) System.out.println(players[i] + " Won!!!");
         }
     }
+>>>>>>> 12455952ea2e25e89b64f7ecb9c96191b7f22ecf
 
     public static void play(String[] players, int[] playersScores, int[] costs, int[] deck, String[] cards,
                             int playersInGame, int currentCardIndex, Scanner scanner) {
@@ -94,6 +122,10 @@ public class Lesson6 {
                         case "exit":
                             break exit;
                         case "y":
+<<<<<<< HEAD
+                            playersScores[i] += costs[deck[currentCardIndex]];
+                            System.out.println("Your card is: (" + cards[deck[currentCardIndex]] + ") and you scored " + playersScores[i] + " points!");
+=======
                             if (costs[deck[currentCardIndex]] == 11) { //если выпал туз, то смотрим сколько очков и начисляем либо 1 либо 11
                                 if (playersScores[i] > 10) {
                                     playersScores[i] += costs[deck[currentCardIndex]] - 10;
@@ -107,6 +139,7 @@ public class Lesson6 {
                                 System.out.println("Your card is: (" + cards[deck[currentCardIndex]] + ") and you scored " + playersScores[i] + " points!");
                             }
 
+>>>>>>> 12455952ea2e25e89b64f7ecb9c96191b7f22ecf
                             break;
                         case "n":
                             playersScores[i] += 100000;
@@ -114,7 +147,11 @@ public class Lesson6 {
                             break;
                     }
                 }
+<<<<<<< HEAD
+                if (currentCardIndex < 36) {
+=======
                 if (currentCardIndex < deck.length - players.length) {
+>>>>>>> 12455952ea2e25e89b64f7ecb9c96191b7f22ecf
                     currentCardIndex++;
                 } else {
                     break exit;
@@ -123,7 +160,11 @@ public class Lesson6 {
         } while (playersInGame > 0);
     }
 
+<<<<<<< HEAD
+    public static void showWinners(String[] players, int[] playersScores) {
+=======
     public static void showScores(String[] players, int[] playersScores) {
+>>>>>>> 12455952ea2e25e89b64f7ecb9c96191b7f22ecf
         System.out.println("\n============Blackjack results!===========");
         for (int i = 0; i < players.length; i++) {
             System.out.println("Player " + players[i] + " scores: " + (playersScores[i] - 100000));
@@ -138,8 +179,13 @@ public class Lesson6 {
     }
 
     public static int[] createDeck() {
+<<<<<<< HEAD
+        int[] deck = new int[36];
+        for (int i = 0; i < 36; i++) {
+=======
         int[] deck = new int[52];
         for (int i = 0; i < deck.length; i++) {
+>>>>>>> 12455952ea2e25e89b64f7ecb9c96191b7f22ecf
             deck[i] = i;
         }
         return deck;

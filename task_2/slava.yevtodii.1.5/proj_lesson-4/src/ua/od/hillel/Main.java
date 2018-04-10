@@ -1,6 +1,8 @@
 package ua.od.hillel;
 
 public class Main {
+<<<<<<< HEAD
+=======
     /**
      *  boolean
      *  =====
@@ -13,6 +15,7 @@ public class Main {
      *  float    32 бит    от -1.4e-45f до 3.4e+38f
      *  double    64 бит    от -4.9e-324 до 1.7e+308
      */
+>>>>>>> 12455952ea2e25e89b64f7ecb9c96191b7f22ecf
 
     public static void main(String[] args) {
         System.out.println(Boolean.TYPE+" "+Boolean.FALSE+" "+Boolean.TRUE);
