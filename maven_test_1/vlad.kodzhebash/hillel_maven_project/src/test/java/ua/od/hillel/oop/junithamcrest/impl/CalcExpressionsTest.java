@@ -3,6 +3,7 @@ package ua.od.hillel.oop.junithamcrest.impl;
 import org.junit.Before;
 import org.junit.Test;
 import ua.od.hillel.oop.junithamcrest.CalcExpressions;
+
 import static org.junit.Assert.*;
 
 public class CalcExpressionsTest {
@@ -15,13 +16,13 @@ public class CalcExpressionsTest {
 
 
     @Before
-    public void init(){
-        this.calcExpressionsImpl1 = new CalcExpressionsImpl(10, CalcExpressions.ADD,2022);
-        this.calcExpressionsImpl2 = new CalcExpressionsImpl(17,CalcExpressions.DIVIDE,20243);
-        this.calcExpressionsImpl3= new CalcExpressionsImpl(122,CalcExpressions.MULTIPLY,20324);
-        this.calcExpressionsImpl4 = new CalcExpressionsImpl(552,CalcExpressions.SUBSTRACTION,270);
-        this.calcExpressionsImpl5 = new CalcExpressionsImpl(0,CalcExpressions.SUBSTRACTION,270);
-        this.calcExpressionsImpl6 = new CalcExpressionsImpl(552,CalcExpressions.SUBSTRACTION,0);
+    public void init() {
+        this.calcExpressionsImpl1 = new CalcExpressionsImpl(10, CalcExpressions.ADD, 2022);
+        this.calcExpressionsImpl2 = new CalcExpressionsImpl(17, CalcExpressions.DIVIDE, 20243);
+        this.calcExpressionsImpl3 = new CalcExpressionsImpl(122, CalcExpressions.MULTIPLY, 20324);
+        this.calcExpressionsImpl4 = new CalcExpressionsImpl(552, CalcExpressions.SUBSTRACTION, 270);
+        this.calcExpressionsImpl5 = new CalcExpressionsImpl(0, CalcExpressions.SUBSTRACTION, 270);
+        this.calcExpressionsImpl6 = new CalcExpressionsImpl(552, CalcExpressions.SUBSTRACTION, 0);
 
 
     }
@@ -51,13 +52,13 @@ public class CalcExpressionsTest {
     public void moduleDivTest() {
 
     }
+
     @Test
     public void SetOpTest() {
         calcExpressionsImpl1.setOperation(CalcExpressions.ADD);
-      //  assertTrue("ok",calcExpressionsImpl1.getOperation().equels(CalcExpressions.ADD));
+        //  assertTrue("ok",calcExpressionsImpl1.getOperation().equels(CalcExpressions.ADD));
 
     }
-
 
 
 }

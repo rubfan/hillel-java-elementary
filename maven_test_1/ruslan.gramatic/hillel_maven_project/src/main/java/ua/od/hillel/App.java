@@ -16,26 +16,30 @@ public class App {
 
         //app.showAbstractionExample();
 
-        //app.showIncapsulationExample();
+        app.showIncapsulationExample();
 
-        app.showPolymorphismExample();
+        //app.showPolymorphismExample();
     }
 
     private void showPolymorphismExample() {
-        B b = new B();
-        A a = b; // здесь происходит формальное преобразование типа: B => A
-
-        int c = a.f(10); // ??? какой из f(...) будет вызван ???
-        System.out.println(c);
+//        B b = new B();
+//        A a = b; // здесь происходит формальное преобразование типа: B => A
+//
+//        int c = a.f(10); // ??? какой из f(...) будет вызван ???
+//        System.out.println(c);
     }
 
     private void showIncapsulationExample() {
         System.out.println("-----------Pie 1------------");
+
         Pie pie = new YeastPie();
         pie.createPie();
-        System.out.println("-----------Pie 2------------");
-        Pie pie2 = new YeastPie(300);
-        pie2.createPie();
+
+//        System.out.println("-----------Pie 2------------");
+//        Pie pie2 = new YeastPie(300);
+//        pie2.createPie();
+
+
     }
 
     private void showAbstractionExample() {
@@ -67,20 +71,20 @@ public class App {
     }
 }
 
-class A {
-    int x = 3;
-
-    int f(int a) {
-        return a + x;
-    }
-}
-
-class B extends A {
-    int y = 8;
-
-    int f(int s) {
-        return s * x;
-    }
-}
+//class A {
+//    int x = 3;
+//
+//    int f(int a) {
+//        return a + x;
+//    }
+//}
+//
+//class B extends A {
+//    int y = 8;
+//
+//    int f(int s) {
+//        return s * x;
+//    }
+//}
 
 
