@@ -1,17 +1,23 @@
 package ua.od.hillel;
-
+/**
+ * Created by dmytro.denysko on 23.03.2018.
+ */
 public class Purse {
-    private int maney;
+    private int money;
 
-    public Purse(int maney) {
-        this.maney = maney;
+    public Purse(int money) {
+        this.money = money;
     }
 
-    public int getManey() {
-        return maney;
+    public int getMoney() {
+        return money;
     }
 
-    public void setManey(int maney) {
-        this.maney = maney;
+    public void addMoney(int money) {
+        this.money += money;
+    }
+
+    public void spendMoney(int money) {
+        this.money -= money;
     }
 }

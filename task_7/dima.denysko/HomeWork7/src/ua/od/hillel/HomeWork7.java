@@ -4,50 +4,40 @@ package ua.od.hillel;
  */
 public class HomeWork7 {
     public static void main(String[] args) {
-        // flashligter
-
-//        Flashlight flashlight = new Flashlight("My Lighter");
-//
-//        flashlight.switchWhiteLight();
-//        flashlight.addBattery(2);
-//        flashlight.switchWhiteLight();
-//        flashlight.whatIsTheLightOn();
-//        flashlight.showBatterys();
-//        flashlight.switchWhiteLight();
-//        flashlight.offFlashLight();
-//
-//        ////MONSTER++++
-//
-//        Monster monster = new Monster("Hannibal Lekter");
-//        monster.showStomach();
-//        monster.eatPeople();
-//        monster.eatPeople();
-//        monster.eatPeople();
-//        monster.eatPeople();
-//        monster.showStomach();
-//        monster.goToWC();
 
         //// Programmer :)
         Programmer dima = new Programmer("Dimon");
         dima.showTotalInfo();
-        dima.read();
+        dima.readBook();
         dima.buyBooks();
-        dima.read();
+        dima.readBook();
         dima.goToWork();
+        dima.readBook();
         dima.goToPub();
-        dima.goToWork();
-        dima.showTotalInfo();
+        dima.readBook();
+        dima.readBook();
+        dima.buyBooks();
+        dima.readBook();
+        dima.goToPub();
+        dima.readBook();
+        dima.readBook();
+        dima.buyBooks();
+        dima.readBook();
+        dima.readBook();
+        dima.readBook();
+        dima.buyACat();
+        dima.buyADog();
+        dima.feedAnimal();
+        dima.buyFlashlight();
+        dima.flashlight.showBatterys();
+        dima.flashlight.addBattery(2);
+        dima.flashlight.switchWhiteLight();
         dima.goToHillelCourses();
         dima.goToPub();
-        dima.showTotalInfo();
         dima.goToWork();
-        dima.goToPub();
-        dima.goToHillelCourses();
-        dima.goToWork();
-        dima.goToPub();
-        dima.goToHillelCourses();
-        dima.showTotalInfo();
-        dima.goToWork();
+        dima.flashlight.whatIsTheLightOn();
+        dima.findAGirl();
+        dima.goToZooWithGirl();
         dima.goToPub();
         dima.showTotalInfo();
     }
