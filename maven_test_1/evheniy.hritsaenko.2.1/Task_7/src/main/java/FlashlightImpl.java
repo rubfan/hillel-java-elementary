@@ -19,12 +19,17 @@ public class FlashlightImpl implements Flashlight {
         this.amtBattery = amtBattery;
     }
 
-    public void addBattery(int amtBattery) {
-        if (this.getAmtBattery() + amtBattery <= maxBattery) {
-            this.amtBattery += amtBattery;
-        }else {
-            System.out.println("MAX battery 3!!!");
+    public int addBattery(int amtBattery) {
+        if (amtBattery >= 0) {
+            if (this.getAmtBattery() + amtBattery <= maxBattery) {
+                return this.amtBattery += amtBattery;
+            } else {
+                System.out.println("MAX battery 3!!!");
+            }
+        }else{
+            System.out.println("Enter a value greater than 0!!!");
         }
+        return this.amtBattery;
     }
 
     public String getName() {
@@ -35,27 +40,27 @@ public class FlashlightImpl implements Flashlight {
         return this.amtBattery;
     }
 
-    public void shineWhite() {
+    public boolean shineWhite() {
         if (this.amtBattery >= 1){
-            System.out.println("Shine WHITE!!!");
+            return true;
         } else {
-            System.out.println("Insert more batteries!!!");
+            return false;
         }
     }
 
-    public void shineRed() {
+    public boolean shineRed() {
         if (this.amtBattery >= 2){
-            System.out.println("Shine RED!!!");
+            return true;
         } else {
-            System.out.println("Insert more batteries!!!");
+            return false;
         }
     }
 
-    public void blink() {
+    public boolean blink() {
         if (this.amtBattery >= 3){
-            System.out.println("BLINK!!!");
+            return true;
         } else {
-            System.out.println("Insert more batteries!!!");
+            return false;
         }
     }
 }

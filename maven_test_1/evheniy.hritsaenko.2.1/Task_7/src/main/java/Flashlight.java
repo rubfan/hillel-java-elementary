@@ -5,11 +5,11 @@ public interface Flashlight {
     static final String DEFAULT_NAME = "Flashlight";
 
 
-    void addBattery(int amtBattery);
+    int addBattery(int amtBattery);
     String getName();
     int getAmtBattery();
-    void shineWhite();
-    void shineRed();
-    void blink();
+    boolean shineWhite();
+    boolean shineRed();
+    boolean blink();
 }
 
