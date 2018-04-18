@@ -4,7 +4,7 @@ public class HW7 {
 
     public static void main(String[] args) {
 
-        //testingFlashLight();
+        testingFlashLight();
         Frankenstein monster = testingFrankenstein();
         Fighter man = testingFighter();
 
