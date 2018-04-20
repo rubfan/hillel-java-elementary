@@ -11,10 +11,6 @@ public class HW9 {
         hw9.shortingWords("hillel java elementary homework");
         hw9.palindromes("deleveled, evitative, cat, dog, deified ");
         System.out.println("=====================================\nbinary ---> " + hw9.toBinary(123));
-
-
-        //System.out.println(s);
-
     }
 
     public  void changeEmail(String mail) {
