@@ -1,4 +1,4 @@
-package ua.od.hillel;
+package ua.od.hillel.lamp;
 
 public class Lamp {
 
